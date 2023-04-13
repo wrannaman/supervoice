@@ -1,5 +1,5 @@
 import React, { createRef } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 /* 
 Main supervoice class.
 */
@@ -141,10 +141,10 @@ class SuperVoice extends React.Component {
 }
 
 
-SuperVoice.propTypes = {
-	apiKey: PropTypes.string.isRequired,
-	onResponse: PropTypes.func.isRequired,
-	containerStyle: PropTypes.object,
-}
+// SuperVoice.propTypes = {
+// 	apiKey: PropTypes.string.isRequired,
+// 	onResponse: PropTypes.func.isRequired,
+// 	containerStyle: PropTypes.object,
+// }
 
 export default SuperVoice;

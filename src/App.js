@@ -1,6 +1,5 @@
 import SuperVoice from './lib/components/SuperVoice';
-const API_KEY = process.env.API_KEY;
-console.log('process', process.env.API_KEY);
+import config from './config.json'
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
         Hi This is my app where I include super voie
         <div>
           <SuperVoice
-            apiKey={API_KEY}
+            apiKey={config.API_KEY}
             containerStyle={{}}
             position={"bottom-right"}
             onResponse={(e) => {
